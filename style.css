@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('bckgrnd.jpg');
+    background-image: url('jjk.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 69%;
@@ -16,31 +16,73 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    height:70px ;
+    padding-top:20px ;
+    background-color: #080000;
+    width: auto;
+    
 }
 .navbar .logo {
     color: #fff;
     font-size: 24px;
+    margin-left: 50px;
+    height: 50px;
+    
 }
 .navbar .menu {
     display: flex;
     gap: 10px;
+   
 }
 .navbar .menu a {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s;
+    font-size: 15px;
 }
 
 .navbar .menu a:hover {
     background-color: #555;
+    border-radius: 10px;
 }
 .home {
-    margin-top: 350px;
+    margin-top: 300px;
     margin-left: 150px;
+    padding-left: 25px;
+    padding-top: 20px;
     color: #fff;
+    background: rgba(255,255,255,0.3);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255,255,255,0.15);
+    width: 500px;
+    border-radius: 10px;
+}
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 450px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    
+}
+button:hover {
+    background-color: rgb(109, 7, 218);
+    border-radius: 5px;
+}
+.web1{
+    padding-left: 80px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+.web2{
+    margin-left: 20px;
+    margin-left: 20px;
 }
 a {
     margin-right: 50px;
@@ -48,6 +90,16 @@ a {
 .header2 {
     text-align: center;
     margin-top: 100px;
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 400px;
+    height: 50px;
+    margin-left: 450px;
+    padding-top: 5px;
+    font-size: 30px;
+    border-radius: 10px;
 }
 .img1 , .img2 , .img3 {
     height: 300px;
@@ -60,6 +112,12 @@ a {
     margin-left: 15px;
     margin-right: 10px;
     margin: 100px;
+    background: rgba(255,255,255,0.4);
+    -webkit-backdrop-filter: blur(11px);
+    backdrop-filter: blur(11px);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 5px;
+    padding: 5px;
 }
 .card-container {
     display: flex;
@@ -67,13 +125,12 @@ a {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-   margin-left: 30px;
+    border: none;
+    margin-left: 55px;
    }
    .card {
     width: 400px;
     height: 400px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -84,7 +141,7 @@ a {
    .card img {
     width: 600px;
     height: 500px;
-    object-fit: cover;
+  
     transition: transform 0.3s;
    }
    .card:hover img {
@@ -98,7 +155,9 @@ a {
     bottom: 0;
     width: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background: rgba(255,255,255,0.2);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     box-sizing: border-box;
     transition: transform 0.3s;
    }
@@ -112,7 +171,7 @@ a {
    }
    .card-description {
     font-size: 16px;
-    color: #777;
+    color: #000000;
    }
    .container {
     display: flex;
@@ -213,21 +272,42 @@ a {
     .navbar {
         font-size: 15px;
         margin-left: 20px;
-        margin-right: 15px;
+        margin-right: 20px;
+        height: 120px;
+        margin-top: 20px;
+        border-radius: 10px;
     }
     .menu {
         margin-top: 15px;
-        margin-left: 0px;
+        margin-left:50px;
     }
     .home {
-        margin-top: 500px;
-        margin-left: 10px;
+        margin-top: 600px;
+        margin-left: 15px;
         font-size: 20px;
+        width: 400px;
+    }
+    button {
+        width: 350px;
+    }
+    .web1 {
+        width: 300px;
+        padding-left: 60px;
+     } 
+    .web2 {
+        padding: 10px;
+    }
+    .logo {
+       padding-left: 60px;
     }
     a {
         margin-right: 0;
         margin: 0;
         margin-left: 0;
+    }
+    .header2 {
+        margin-top: 50px;
+        margin-left: 10px;
     }
     .img1 , .img2 , .img3 {
         margin-left: 8px;
@@ -244,7 +324,7 @@ a {
     }
     .word2 {
         margin-top: 350px;
-        margin-right: -300px;
+        margin-right: -400px;
     }
     .card-container {
         flex-direction: column;
